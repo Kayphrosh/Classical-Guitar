@@ -1143,7 +1143,7 @@ flex-direction: row-reverse;
         row-gap: 1rem;
     }
     .event button {
-        margin: 2rem 1rem;
+        margin: 2rem;
     }
     /* .event img {
         height: 100%;
