@@ -247,6 +247,7 @@ body {
     text-align: center;
     letter-spacing: 0.01em;
     color: #107670;
+    overflow: hidden;
 }
 .mission h3 {
     font-family: 'Cormorant', serif;
@@ -281,12 +282,15 @@ body {
     align-items: flex-start;
     padding:  0 2rem;
     height: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 36px;
 }
 .about div:nth-child(2) {
     background: #FFFFFF;
     box-shadow: 3px 3px 90px rgba(34, 34, 34, 0.19);
     border-radius: 5px;
+}
+.about div header {
+    overflow: hidden;
 }
 .about div header h6 {
     font-style: normal;
@@ -304,6 +308,7 @@ body {
     line-height: 32px;
     letter-spacing: 0.03em;
     color: #444444;
+    overflow: hidden;
 }
 .about div a {
     font-size: 16px;
@@ -375,8 +380,9 @@ flex-direction: row-reverse;
     }
     .mission h3 { 
         font-size: 28px;
-        text-align: left;
-        line-height: 32px;
+        text-align: center;
+        line-height: 36px;
+        font-weight: 500;
         letter-spacing: 0.005em;
     }
     .about {
@@ -458,8 +464,6 @@ flex-direction: row-reverse;
     display: flex;
     justify-content: baseline;
     align-items: flex-end;
-    width: 100%;
-    max-width: 495px;
     height: 450px;
     border-radius: 5px;
 }
@@ -554,6 +558,7 @@ flex-direction: row-reverse;
         margin-top: 24px;
     }
     .pioneer {
+        width: 100%;
         border-radius: 5px;
     }
     .pioneer-img img{
@@ -1044,11 +1049,8 @@ flex-direction: row-reverse;
     background-color: #361206;
     display: flex;
     flex-direction: column;
-
-    /* min-width: 300px; */
     padding: 3rem 2rem;
     row-gap: 3rem;
-    
 }
 .event image {
     border-radius: 5px;
@@ -1106,11 +1108,24 @@ flex-direction: row-reverse;
     .upcoming-event-container header a {
         display: none;
     }
+    .events {
+        row-gap: 3rem;
+    }
     .event {
-        padding: 1rem;
+        padding: 0rem;
         justify-content: center;
         max-width: 100%;
+        row-gap: 1rem;
     }
+    .event button {
+        margin: 2rem 1rem;
+    }
+    /* .event img {
+        height: 100%;
+        max-height: 480px;
+    } */
+}
+@media (max-width: 586px) {
     .event img {
         height: 100%;
         max-height: 280px;
@@ -1200,22 +1215,21 @@ flex-direction: row-reverse;
     row-gap: 24px;
 }
 .footer-nav h6 {
-    font-family: 'Cormorant';
     font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 34px;
 }
 .footer-nav ul {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 1rem;
 }
 .footer-nav ul a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: #444444;
 }
@@ -1264,10 +1278,8 @@ flex-direction: row-reverse;
         width: 100%;
     }
     .waiting-list-footer form input {
-        width: 100%;
-        min-width: 320px;
+        min-width: 100%;
         border-width: 1.5px;
-        /* max-width: 200px; */
         border-radius: 5px;
         text-align: left;
     }
@@ -1280,7 +1292,7 @@ flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
         width: 100%;
-        min-width: 100%;
+        min-width: 150%;
         margin: 0 auto;
     }
     .footer-logo img{
