@@ -59,7 +59,9 @@ body {
 .nav-links a {
     color: #333;
 }
-
+.hamburger {
+    display: none;
+}
 .cta-btn button {
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -157,10 +159,55 @@ body {
     
 }
 @media (max-width: 786px) {
+    .navbar {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(20px);
+        padding: 0 1rem;
+        margin-top: 0rem;
+        position: fixed;
+        width: 100%;
+    }
+    .cta-btn {
+        display: none;
+    }
+    .nav-links {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .hamburger .iconify {
+        font-size: 48px;
+    }
+
+    .heroe-text {
+        margin-top: 10rem;
+        padding:0 .5rem;
+    }
+    .heroe-text h2 {
+        font-size: 36px;
+        line-height: 60px;
+        letter-spacing: 0.005em;
+        width: 100%;
+    }
 
 
-
-
+    .waiting-list-form {
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 0 1rem;
+    }
+    .waiting-list-form input {
+        width: 100%;
+        border-width: 1.5px;
+    }
+    .waiting-list-form button {
+        height: 60px;
+        min-width: 100%;
+    }
+    .big-image {
+        max-height: 600px;
+    }
 }
 
 
@@ -282,6 +329,7 @@ body {
     }
     .about-us aside img{
         border-radius: 5px;
+        max-height: 500px;
     }
     .about .story {
         flex-direction: column;
@@ -997,6 +1045,9 @@ body {
         padding: 1rem;
         justify-content: center;
         max-width: 100%;
+    }
+    .event img {
+        max-height: 500px;
     }
 }
 
