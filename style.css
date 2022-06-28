@@ -26,7 +26,7 @@ body {
     justify-content: center;
     margin: auto;
     color: #2A0B00;
-    background-color: #fff;
+    background-color: #f0f0f0;
     position: relative;
 }   
 
@@ -226,10 +226,27 @@ body {
 }
 .mission {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 150px;
-
     padding: 0 80px;
+}
+.mission span {
+    background: rgba(255, 255, 255, 0.5);
+    width: 170px;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.mission span p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #107670;
 }
 .mission h3 {
     font-family: 'Cormorant', serif;
@@ -240,56 +257,91 @@ body {
     text-align: center;
     letter-spacing: 0.01em;
     color: #2E1E2C;
-    max-width: 1400px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5rem;
-    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+    margin-top: 64px;
     padding: 0 80px;
 }
 .about div {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 2rem;
     align-items: flex-start;
-    justify-content: left;
-
+    padding:  0 2rem;
+    height: 400px;
+    margin-bottom: 60px;
 }
-.about-us aside {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
-    width: 100%;
+.about div:nth-child(2) {
+    background: #FFFFFF;
+    box-shadow: 3px 3px 90px rgba(34, 34, 34, 0.19);
+    border-radius: 5px;
+}
+.about div header h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #2E0C0B;
+}
+.about div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #444444;
+}
+.about div a {
+    font-size: 16px;
+    color: #E31512;
+}
+/* .about-us aside {
+display: flex;
+flex-direction: column;
+flex-basis: 50%;
+width: 100%;
 }
 .about div article {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
+display: flex;
+flex-direction: column;
+flex-basis: 50%;
 }
 .about div article h4{
-    font-family: 'Cormorant', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 58px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #222222;
+font-family: 'Cormorant', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #222222;
 }
 .about div article p {
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #444444;
-    margin-top: 2rem;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #444444;
+margin-top: 2rem;
 }
 
 .about .story {
-    flex-direction: row-reverse;
-}
+flex-direction: row-reverse;
+} */
 
 .about-btn {
     display: flex;
