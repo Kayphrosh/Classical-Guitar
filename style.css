@@ -72,6 +72,7 @@ body {
     background: #107670;  
     border: 1px solid #107670;
     color: #fff;
+    font-size: 18px;
     border-radius: 5px;
     outline: none;
 }
@@ -210,7 +211,7 @@ body {
         border-radius: 5px !important;
     }
     .big-image {
-        max-height: 600px;
+        max-height: 500px;
     }
 }
 
