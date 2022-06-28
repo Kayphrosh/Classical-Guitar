@@ -376,14 +376,21 @@ flex-direction: row-reverse;
 
 @media (max-width: 786px) {
     .mission {
+        background-color: #fff;
         align-items: flex-start;
-        padding: 0px;
         margin:  80px 1rem;
-        padding-bottom: 4rem;
-        border-bottom: 1px solid #bebebeb9;
+        padding:4rem 2rem;
+        border-radius: 5px;
     }
     .mission span {
-        margin: 1rem 0;
+        
+        width: max-content;
+        margin: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+    .mission span p {
+        font-size: 18px;
     }
     .mission h3 { 
         font-size: 28px;
@@ -399,10 +406,16 @@ flex-direction: row-reverse;
     }
     .about div {
         flex-direction: column;
+        padding-left: 0;
+        height: 250px;
+    }
+    .about div:nth-child(2) {
+        padding-left: 2rem;
+        height: 500px;
     }
     .about-us aside img{
         border-radius: 5px;
-        max-height: 500px;
+        max-height: 450px;
     }
     .about .story {
         flex-direction: column;
