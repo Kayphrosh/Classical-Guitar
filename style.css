@@ -376,18 +376,26 @@ flex-direction: row-reverse;
 
 @media (max-width: 786px) {
     .mission {
-        padding: 0 16px;
+        align-items: flex-start;
+        padding: 0px;
+        margin:  80px 1rem;
+        padding-bottom: 4rem;
+        border-bottom: 1px solid #bebebeb9;
+    }
+    .mission span {
+        margin: 1rem 0;
     }
     .mission h3 { 
         font-size: 28px;
-        text-align: center;
+        text-align: left;
         line-height: 36px;
         font-weight: 500;
         letter-spacing: 0.005em;
+        padding-top: 1rem;
     }
     .about {
         padding: 0 1rem;
-        margin-top: 3rem;
+        margin-top: 0rem;
     }
     .about div {
         flex-direction: column;
