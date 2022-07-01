@@ -138,15 +138,15 @@ body {
     border-radius: 0px 5px 5px 0px;
 }
 
-.big-image {
+.big-image iframe{
     display: flex;
     flex-direction: column;
-    background-image: url(./Images/big-2.jpg);
-    justify-content: center;
+    /* background-image: url(https://youtu.be/E2EDEq8LtZQ); */
+    /* justify-content: center;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
+    justify-content: center; */
     align-items: center;
     margin: auto;
     margin-top: 6rem;
@@ -211,7 +211,7 @@ body {
         min-width: 100%;
         border-radius: 5px !important;
     }
-    .big-image {
+    .big-image iframe {
         max-height: 500px;
     }
 }
@@ -283,11 +283,11 @@ body {
     align-items: flex-start;
     padding:  0 2rem;
     height: 400px;
-    margin-bottom: 36px;
+    margin: 56px 0;
     overflow: hidden;
 }
 .about div:nth-child(2) {
-    background: #FFFFFF;
+    background: #F0F0F0;
     box-shadow: 3px 3px 90px rgba(34, 34, 34, 0.19);
     border-radius: 5px;
 }
