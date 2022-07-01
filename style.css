@@ -188,6 +188,7 @@ body {
         padding:0 .5rem;
     }
     .heroe-text h2 {
+        /* text-align: left; */
         font-size: 36px;
         line-height: 60px;
         letter-spacing: 0.005em;
