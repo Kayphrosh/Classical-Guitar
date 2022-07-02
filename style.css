@@ -26,7 +26,7 @@ body {
     justify-content: center;
     margin: auto;
     color: #2A0B00;
-    background-color: #f0f0f0;
+    background-color: #fff;
     position: relative;
 }   
 
@@ -288,8 +288,8 @@ body {
     overflow: hidden;
 }
 .about div:nth-child(2) {
-    background: #F0F0F0;
-    box-shadow: 3px 3px 90px rgba(34, 34, 34, 0.19);
+    background: #FFFFFF;
+    box-shadow: 3px 3px 90px rgba(175, 175, 175, 0.19);
     border-radius: 5px;
 }
 .about div header {
@@ -309,7 +309,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.01em;
     color: #444444;
     overflow: hidden;
 }
@@ -1281,7 +1281,7 @@ flex-direction: row-reverse;
     line-height: 17px;
     color: #444444;
 }
-@media (max-width: 786px) {
+@media (max-width: 986px) {
     .main-footer{
         padding: 80px 24px;
     }
@@ -1335,4 +1335,85 @@ flex-direction: row-reverse;
     .footer-nav-container {
         flex-direction: column;
     }
+}
+
+
+.objectives-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    padding:  80px;
+    align-items: center;
+    color: #444444;
+    /* background-color: #2A0B00; */
+    /* color: #fff; */
+}
+
+.objectives-container header h3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+}
+
+.objectives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    width: 100%;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+.objective {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:  2rem;
+    border-bottom:  1px solid #2A0B00;
+    overflow: hidden;
+    max-height: 240px;
+}
+.objective h4 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    /* font-weight: 600; */
+}
+.objective p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #444444;
+    overflow: hidden;
+}
+
+@media (max-width: 986px) {
+    .objectives-container {
+        padding: 48px 24px;
+    }
+}
+
+@media (max-width: 786px) {
+    .objectives-container {
+        padding: 48px 1rem;
+        align-items: flex-start;
+    }
+    .objectives-container header h3 {
+        font-size: 36px;
+        text-align: left;
+        margin-right: auto;
+    }
+    .objective {
+        /* height: 100%; */
+        max-height: 250px;
+        padding-bottom: 3rem;
+    }
+
 }
