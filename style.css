@@ -317,6 +317,15 @@ body {
     font-size: 16px;
     color: #E31512;
 }
+.about div button {
+    background: none;
+    border:none;
+    color: #E31512;
+
+}
+.read-more-text {
+    display: none;
+}
 /* .about-us aside {
 display: flex;
 flex-direction: column;
@@ -415,8 +424,9 @@ flex-direction: row-reverse;
         height: max-content;
     }
     .about div:nth-child(2) {
-        padding-left: 2rem;
-        height: 500px;
+        min-height: 500px;
+        padding: 2rem 0;
+        padding-left: 1rem;
     }
     .about-us aside img{
         border-radius: 5px;
@@ -442,6 +452,15 @@ flex-direction: row-reverse;
     .about-btn {
         margin-top: 3rem;
     }
+
+    .about div:nth-child(2).read-active .read-more-text{
+        display: block;
+        transition: all 0.4s ease;
+    }   
+    /* .why-silicio-container.read-active .read-more-text{
+        display: block;
+        transition: all 0.4s ease;
+    }   */
 }
 
 .pioneers-container {
