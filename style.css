@@ -413,10 +413,14 @@ flex-direction: row-reverse;
         letter-spacing: 0.005em;
         padding-top: 1rem;
     }
+    .about-container {
+        justify-content: flex-start;
+    }
     .about {
         padding: 0 1rem;
         margin-top: 100px;
         overflow: hidden;
+        align-items: flex-start;
     }
     .about div {
         flex-direction: column;
@@ -451,6 +455,8 @@ flex-direction: row-reverse;
     }
     .about-btn {
         margin-top: 3rem;
+        /* margin-left: auto; */
+        /* justify-content: flex-start; */
     }
 
     .about div:nth-child(2).read-active .read-more-text{
@@ -1003,12 +1009,14 @@ flex-direction: row-reverse;
 }
 
 @media (max-width: 786px) {
-
+    
     .contact-container {
         padding: 80px 1rem;
         flex-direction: column;
     }
-
+    .contact-details-container {
+        display: none;
+    }
     .contact-details-container {
         border-radius: 0;
         padding: 3rem 1rem;
