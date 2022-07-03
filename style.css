@@ -984,6 +984,7 @@ flex-direction: row-reverse;
 .contact-form span {
     display: flex;
     flex-direction: column;
+    overflow:  hidden !important;
 }
 .contact-form span label {
     font-style: normal;
@@ -1126,6 +1127,7 @@ flex-direction: row-reverse;
     row-gap: 2rem;
     align-items: center;
     margin-top: 4rem;
+    overflow:  hidden !important;
 }
 .event {
     background-color: #361206;
@@ -1133,6 +1135,7 @@ flex-direction: row-reverse;
     flex-direction: column;
     padding: 3rem 2rem;
     row-gap: 3rem;
+    overflow: hidden !important;
 }
 .event image {
     border-radius: 5px;
@@ -1429,7 +1432,6 @@ flex-direction: row-reverse;
     padding-bottom:  2rem;
     border-bottom:  1px solid #2A0B00;
     overflow: hidden;
-
 }
 .objective h4 {
     font-size: 24px;
