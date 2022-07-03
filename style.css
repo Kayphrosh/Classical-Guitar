@@ -314,18 +314,30 @@ body {
     overflow: hidden;
 }
 .about div a {
-    font-size: 16px;
+    font-size: 18px;
     color: #E31512;
 }
 .about div button {
+    font-family: 'Inter', sans-serif;
     background: none;
     border:none;
     color: #E31512;
-
+    font-size: 18px;
 }
 .read-more-text {
     display: none;
 }
+
+.our-mission-header,
+.our-mission-text {
+    display: none;
+}
+
+.our-history-header,
+.our-history-text {
+    display: none;
+}
+
 /* .about-us aside {
 display: flex;
 flex-direction: column;
@@ -371,7 +383,7 @@ flex-direction: row-reverse;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:200px;
     height: 60px;
     background: #2E0C0B;
     border: 1px solid #2E0C0B;
@@ -456,14 +468,28 @@ flex-direction: row-reverse;
     }
     .about-btn {
         margin-top: 3rem;
+        width: 100%;
         /* margin-left: auto; */
         /* justify-content: flex-start; */
     }
-
+    .about-btn button {
+        width: 100%;
+    }
     .about div:nth-child(2).read-active .read-more-text{
         display: block;
         transition: all 0.4s ease;
     }   
+
+
+    .our-mission-header,
+    .our-mission-text {
+        display: flex;
+    }
+    .our-history-header,
+    .our-history-text {
+        display: none;
+    }
+
     /* .why-silicio-container.read-active .read-more-text{
         display: block;
         transition: all 0.4s ease;
@@ -1372,7 +1398,7 @@ flex-direction: row-reverse;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     padding:  80px;
     align-items: center;
     color: #444444;
