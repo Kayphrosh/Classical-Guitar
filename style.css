@@ -336,7 +336,7 @@ body {
 
 .our-history-header,
 .our-history-text {
-    display: none;
+    display: flex;
 }
 
 /* .about-us aside {
