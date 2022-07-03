@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Spline+Sans+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@300;400;600;700&family=Raleway&family=Roboto:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ button {
     cursor: pointer;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -63,7 +64,7 @@ body {
     display: none;
 }
 .cta-btn button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +113,7 @@ body {
     margin-top: 1.5rem;
 }
 .waiting-list-form input {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 400px;
     height: 55px;
     padding-left: 2rem;
@@ -129,7 +130,7 @@ body {
     font-size: 16px;
     line-height: 19px;
 
-    color: #999;
+    color: #555;
 }
 .waiting-list-form button {
     width: 180px;
@@ -241,7 +242,7 @@ body {
     margin-bottom: 1rem;
 }
 .mission span p {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -305,7 +306,7 @@ body {
     color: #2E0C0B;
 }
 .about div p{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -319,7 +320,7 @@ body {
     color: #E31512;
 }
 .about div button {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: none;
     border:none;
     color: #E31512;
@@ -684,7 +685,7 @@ flex-direction: row-reverse;
 }
 
 .academy-container header p {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -744,7 +745,7 @@ flex-direction: row-reverse;
     margin-bottom: 1rem;
 }
 .level-text p {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -782,7 +783,7 @@ flex-direction: row-reverse;
 }
 
 .academy-container .biography-link{
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -925,7 +926,7 @@ flex-direction: row-reverse;
     margin-bottom: 10px;
 }
 .contact-details div span p {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -962,7 +963,6 @@ flex-direction: row-reverse;
     color: #1D1B1B;
 }
 .contact-form-container header p {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -986,7 +986,6 @@ flex-direction: row-reverse;
     flex-direction: column;
 }
 .contact-form span label {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1015,7 +1014,7 @@ flex-direction: row-reverse;
 }
 
 .contact-form button {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1144,7 +1143,7 @@ flex-direction: row-reverse;
     align-items: center;
     height: 60px;
     border: 1px solid #107670;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1167,7 +1166,7 @@ flex-direction: row-reverse;
     background: #107670;
     border: 1px solid #107670;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1230,7 +1229,6 @@ flex-direction: row-reverse;
     margin: auto;
 }
 .waiting-list-footer h4 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -1255,7 +1253,7 @@ flex-direction: row-reverse;
     border-radius: 5px 0px 0px 5px;
 }
 .waiting-list-footer form input::placeholder {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1273,7 +1271,7 @@ flex-direction: row-reverse;
     border-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1309,7 +1307,7 @@ flex-direction: row-reverse;
     row-gap: 1rem;
 }
 .footer-nav ul a {
-    font-family: 'Inter';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1331,7 +1329,6 @@ flex-direction: row-reverse;
 .main-footer small {
     margin: auto;
     margin-top: 4rem;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1441,7 +1438,6 @@ flex-direction: row-reverse;
     /* font-weight: 600; */
 }
 .objective p {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
