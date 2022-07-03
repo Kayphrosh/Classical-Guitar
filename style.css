@@ -1429,7 +1429,7 @@ flex-direction: row-reverse;
     padding-bottom:  2rem;
     border-bottom:  1px solid #2A0B00;
     overflow: hidden;
-    max-height: 250px;
+
 }
 .objective h4 {
     font-size: 24px;
@@ -1446,7 +1446,11 @@ flex-direction: row-reverse;
     color: #444444;
     overflow: hidden;
 }
-
+@media (min-width: 986px) {
+    .objective {
+        max-height: 250px;
+    }
+}
 @media (max-width: 986px) {
     .objectives-container {
         padding: 48px 24px;
@@ -1464,9 +1468,6 @@ flex-direction: row-reverse;
         margin-right: auto;
     }
     .objective {
-        max-height: 300px;
-        height: 100%;
-        /* min-height: 300px; */
         padding-bottom: 3rem;
     }
 
