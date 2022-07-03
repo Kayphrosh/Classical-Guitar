@@ -85,8 +85,8 @@ body {
     margin-top: 4rem;
 }
 .heroe-text h2 {
-    font-family: 'Outfit', sans-serif;
-    /* font-family: 'Cormorant', serif; */
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Cormorant', serif;
     font-style: normal;
     text-transform: uppercase;
     font-weight: 600;
