@@ -1469,6 +1469,7 @@ flex-direction: row-reverse;
     }
     .objective {
         padding-bottom: 3rem;
+        height: 100%;
     }
 
 }
