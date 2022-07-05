@@ -447,7 +447,7 @@ flex-direction: row-reverse;
         padding-left: 1rem;
         height: max-content;
         margin: 0;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .about div:nth-child(2) {
         min-height: 500px;
@@ -478,7 +478,7 @@ flex-direction: row-reverse;
         display: none;
     }
     .about-btn {
-        margin-top: 3rem;
+        margin-top: 6rem;
         width: 100%;
         /* margin-left: auto; */
         /* justify-content: flex-start; */
