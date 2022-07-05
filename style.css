@@ -453,8 +453,7 @@ flex-direction: row-reverse;
     }
     .about div:nth-child(2) {
         min-height: 500px;
-        padding: 2rem 0;
-        padding-left: 1rem;
+        padding: 2rem 1rem;
     }
     .about-us aside img{
         border-radius: 5px;
