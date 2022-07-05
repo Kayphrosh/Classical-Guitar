@@ -34,6 +34,11 @@ body {
 .heroe-section {
     display: flex;
     flex-direction: column;
+    background-image: url(./Images/pattern.svg);
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
 }
 .navbar {
@@ -284,8 +289,8 @@ body {
     justify-content: center;
     gap: 2rem;
     align-items: flex-start;
-    padding:  0 2rem;
-    height: 400px;
+    padding:  0rem 2rem;
+    /* height: 400px; */
     margin: 56px 0;
     overflow: hidden;
 }
@@ -293,6 +298,7 @@ body {
     background: #FFFFFF;
     box-shadow: 3px 3px 90px rgba(175, 175, 175, 0.19);
     border-radius: 5px;
+    padding: 2rem;
 }
 .about div header {
     overflow: hidden;
@@ -301,7 +307,6 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 22px;
     letter-spacing: 0.01em;
     color: #2E0C0B;
 }
@@ -459,8 +464,9 @@ flex-direction: row-reverse;
         margin-top: 1rem;
     }
     .about div article p {
-        font-size: 16px;
+        font-size: 15px;
         margin-top: .5rem;
+        line-height: 28px;
     }
     .about div:nth-child(1) article p:nth-child(2) {
         display: none;
@@ -662,6 +668,12 @@ flex-direction: row-reverse;
     padding: 100px 80px;
     margin-top: 4rem;
     background-color: #2A0B00;
+    background-image: url(./Images/event.svg);
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
     /* width: 100%; */
     height: 100%;
     min-height: 100vh;
@@ -704,6 +716,7 @@ flex-direction: row-reverse;
     row-gap: 2rem;
     align-items: center;
     margin-top: 64px;
+    overflow: hidden;
 }
 .level {
     display: flex;
@@ -716,6 +729,7 @@ flex-direction: row-reverse;
     /* width: 450px; */
     width: 100%;
     border-radius: 5px;
+    overflow: hidden;
 }
 .level-icon {
     display: flex;
@@ -761,7 +775,6 @@ flex-direction: row-reverse;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
     color: #f0f0f0;
 }
 .level-cta button {
@@ -773,7 +786,6 @@ flex-direction: row-reverse;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     background: none;
     color: #FFF;
     border: 1px solid #F0F0F0;
@@ -980,6 +992,7 @@ flex-direction: row-reverse;
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
+    overflow: hidden;
 }
 .contact-form span {
     display: flex;
@@ -991,8 +1004,8 @@ flex-direction: row-reverse;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
     color: #1D1B1B;
+    overflow: hidden;
 }
 .contact-form span input {
     height: 60px;
@@ -1097,7 +1110,12 @@ flex-direction: row-reverse;
     display: flex;
     flex-direction: column;
     padding:80px 80px;
-    background-color: #2A0B00;
+    background-color: #2a0b00;
+    background-image: url(./Images/event.svg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .upcoming-event-container header {
@@ -1139,6 +1157,7 @@ flex-direction: row-reverse;
 }
 .event image {
     border-radius: 5px;
+    overflow: hidden;
 }
 .event button {
     display: flex;
@@ -1470,7 +1489,7 @@ flex-direction: row-reverse;
         margin-right: auto;
     }
     .objective {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         /* height: 100%; */
         max-height: 400px;
     }
