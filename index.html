@@ -16,10 +16,11 @@
             <div class="logo">
                 <img src="./Images/logo.PNG" alt="">
             </div>
-            <div class="hamburger">
-                <span class="iconify" data-icon="ci:menu-duo"></span>
+            <div class="hamburger" onclick="toggleNav()">
+                <span class="iconify" id="open" data-icon="bx:menu"></span>
+                <span class="iconify" id="close" data-icon="material-symbols:close"></span>
             </div>
-            <ul class="nav-links">
+            <ul class="nav-links nav-active">
                 <li>
                     <a href="#">Home</a>
                 </li>

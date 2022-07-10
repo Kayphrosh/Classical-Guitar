@@ -30,3 +30,32 @@ function onYouTubeIframeAPIReady() {
     }
   });
  }
+
+
+
+
+let toggleNavstatus = false;
+const navbar = document.querySelector('.nav-active');
+const topbar = document.querySelector('.navbar');
+const opennav = document.querySelector('.hamburger #open');
+const closeNav = document.querySelector('.hamburger #close');
+let toggleNav = function () {
+  if (toggleNavstatus === false) {
+    topbar.style.height = '80vh';
+    navbar.style.display = 'flex';
+    navbar.style.transform = 'translate(0%)';
+    opennav.style.display = 'none';
+    closeNav.style.display = 'flex';
+    navbar.style.animation = 'animateNav 0.8s ease forwards 1'
+    navbar.style.animationDelay = '0.1s'
+    toggleNavstatus = true;
+    
+  } else if (toggleNavstatus === true) {
+    // navbar.style.display = 'flex';
+    topbar.style.height = '10vh';
+    navbar.style.transform = 'translate(-100%)';
+    closeNav.style.display = 'none';
+    opennav.style.display = 'flex';
+    toggleNavstatus = false;
+  }
+};
