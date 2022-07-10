@@ -1582,7 +1582,10 @@ flex-direction: row-reverse;
     .img-gallery-container{
         padding: 0 16px;
     }
-    .objectives-container header h3 {
+    .img-gallery-container header {
+        margin-top: 100px;
+    }
+    .img-gallery-container header h3 {
         font-size: 32px;
         /* text-align: left;
         margin-right: auto; */
