@@ -1551,6 +1551,7 @@ flex-direction: row-reverse;
 
 .img-gallery-container{
     padding: 0 80px;
+    overflow: hidden;
 }
 .img-gallery-container header {
     display: flex;
@@ -1572,10 +1573,12 @@ flex-direction: row-reverse;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     column-gap: 30px;
     row-gap: 30px;
+    overflow: hidden;
 }
 .image-gallery img {
     width: 500px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 @media (max-width: 786px) {
