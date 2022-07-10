@@ -52,7 +52,7 @@ let toggleNav = function () {
     
   } else if (toggleNavstatus === true) {
     // navbar.style.display = 'flex';
-    topbar.style.height = '10vh';
+    topbar.style.height = '8vh';
     navbar.style.transform = 'translate(-100%)';
     closeNav.style.display = 'none';
     opennav.style.display = 'flex';

@@ -34,7 +34,7 @@ body {
 .heroe-section {
     display: flex;
     flex-direction: column;
-    background-image: url(./Images/pattern.svg);
+    /* background-image: url(./Images/pattern.svg); */
     background-position: center center;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -842,7 +842,7 @@ flex-direction: row-reverse;
     border: 1px solid #F0F0F0;
     outline: none;
     border-radius: 5px;
-    margin-top: 24px;
+    margin-top: 1rem;
 }
 
 .academy-container .biography-link{
@@ -1547,4 +1547,44 @@ flex-direction: row-reverse;
         max-height: 400px;
     }
 
+}
+
+.img-gallery-container{
+    padding: 0 80px;
+}
+.img-gallery-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-gallery-container header h3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+}
+.image-gallery {
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.image-gallery img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+@media (max-width: 786px) {
+    .img-gallery-container{
+        padding: 0 16px;
+    }
+    .objectives-container header h3 {
+        font-size: 32px;
+        /* text-align: left;
+        margin-right: auto; */
+    }
 }
