@@ -1577,6 +1577,7 @@ flex-direction: row-reverse;
 }
 .image-gallery img {
     width: 500px;
+    /* max-height: 600px; */
     border-radius: 5px;
     overflow: hidden;
 }
